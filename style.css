@@ -13,6 +13,7 @@ img{
 }
 
 a{
+    color:currentColor;
     text-decoration: none;
 }
 
@@ -20,7 +21,6 @@ a{
     max-width: 1024px;
     margin:0 auto;
     border:2px dashed rgb(23, 23, 245,0.2);
-    padding: 20px;
 }
 .row::after{
     content: "";
@@ -90,4 +90,25 @@ padding-right: 0;
 .debug .row [class^="col-"] {
     border:2px solid brown;
     /* padding: 20px; */
+}
+
+/* LOGO + NAV */
+header{
+    padding-top:0;
+    
+}
+
+#logo{
+    height: 72px;
+}
+#nav-list {
+    padding-top: 45px;
+}
+
+#nav-list li{
+    text-transform: uppercase;
+    list-style: none;
+    display: inline;
+    color: gray;
+    margin-right:10px;
 }
